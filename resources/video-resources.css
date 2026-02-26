@@ -14,7 +14,7 @@
 }
 
 body {
-    background-attachment: fixed;
+    background-attachment: cover;
     background-image: url(/resources/media/video/resource-video-background.gif);
 }
 
@@ -84,6 +84,10 @@ a {
     color: #d40051;
 }
 
+.resources {
+
+}
+
 .content {
     margin: 25px 50px;
     display: grid;
@@ -106,6 +110,10 @@ a {
     "left-side right-side ."
     ". . ."
     ". . .";
+}
+
+.left-side {
+
 }
 
 .left-side-big-title h2 {
@@ -155,6 +163,10 @@ iframe {
     top: 2.5px;
 }
 
+.right-side {
+
+}
+
 .right-side h3 {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -184,6 +196,10 @@ iframe {
     -webkit-text-stroke: 0.2em black;
 }
 
+.links {
+
+}
+
 .links h3 {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -199,6 +215,10 @@ iframe {
     -webkit-text-stroke: 0.2em black;
 } 
 
+.links li {
+
+}
+
 .links a {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -212,4 +232,104 @@ iframe {
     border-top: #000000 solid 2px;
     border-bottom: #000000 solid 2px;
     background-color: #000000d3;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    iframe {
+        height: 260px ;
+        width: 460px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-side h2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 460px;
+    }
+
+    .content {
+         display: block;
+    }
+
+    .right-side h3 {
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+        width: 460px;
+    }
+
+    .links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+    }
+
+    .links li {
+        text-decoration: none;
+    }
+
+    .links a {
+        width: 460px;
+    }
+
+    hr {
+        width: 460px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    iframe {
+        height: 317px;
+        width: 560px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-side h2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+         display: block;
+    }
+
+    .right-side h3 {
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+        width: 560px;
+    }
+
+    .links ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+    }
+
+    .links li {
+        text-decoration: none;
+    }
+
+    .links a {
+        width: 560px;
+    }
+
+    hr {
+        width: 560px;
+    }
 }
