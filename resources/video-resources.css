@@ -84,10 +84,6 @@ a {
     color: #d40051;
 }
 
-.resources {
-
-}
-
 .content {
     margin: 25px 50px;
     display: grid;
@@ -110,10 +106,6 @@ a {
     "left-side right-side ."
     ". . ."
     ". . .";
-}
-
-.left-side {
-
 }
 
 .left-side-big-title h2 {
@@ -163,10 +155,6 @@ iframe {
     top: 2.5px;
 }
 
-.right-side {
-
-}
-
 .right-side h3 {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -196,10 +184,6 @@ iframe {
     -webkit-text-stroke: 0.2em black;
 }
 
-.links {
-
-}
-
 .links h3 {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -215,10 +199,6 @@ iframe {
     -webkit-text-stroke: 0.2em black;
 } 
 
-.links li {
-
-}
-
 .links a {
     font-family: LondrinaSolid;
     color: #ffffff;
@@ -233,8 +213,3 @@ iframe {
     border-bottom: #000000 solid 2px;
     background-color: #000000d3;
 }
-
-/*
-Cosmic veil
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
